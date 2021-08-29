@@ -13,18 +13,18 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <!--[if gte mso 9]><xml>
  <o:DocumentProperties>
   <o:Author>Lysander Bastiras [S]</o:Author>
-  <o:LastAuthor>Lysander Bastiras [S]</o:LastAuthor>
-  <o:Revision>3</o:Revision>
-  <o:TotalTime>268</o:TotalTime>
-  <o:Created>2021-08-27T01:30:00Z</o:Created>
-  <o:LastSaved>2021-08-27T02:23:00Z</o:LastSaved>
+  <o:LastAuthor>name</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>516</o:TotalTime>
+  <o:Created>2021-08-29T02:33:00Z</o:Created>
+  <o:LastSaved>2021-08-29T02:48:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>138</o:Words>
-  <o:Characters>598</o:Characters>
+  <o:Words>245</o:Words>
+  <o:Characters>1399</o:Characters>
   <o:Company>St George College</o:Company>
-  <o:Lines>4</o:Lines>
-  <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>735</o:CharactersWithSpaces>
+  <o:Lines>11</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>1641</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -36,8 +36,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
-  <w:TrackMoves/>
+  <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
   <w:ValidateAgainstSchemas/>
@@ -77,7 +76,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 </xml><![endif]--><!--[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
-  LatentStyleCount="371">
+  LatentStyleCount="376">
   <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
   <w:LsdException Locked="false" Priority="9" SemiHidden="true"
@@ -642,25 +641,28 @@ xmlns="http://www.w3.org/TR/REC-html40">
    Name="List Table 6 Colorful Accent 6"/>
   <w:LsdException Locked="false" Priority="52"
    Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
  </w:LatentStyles>
 </xml><![endif]-->
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;
-	mso-font-charset:2;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:0 268435456 0 0 -2147483648 0;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:1;
+	mso-font-charset:0;
 	mso-generic-font-family:roman;
 	mso-font-pitch:variable;
-	mso-font-signature:0 0 0 0 0 0;}
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -749,7 +751,6 @@ p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphC
 	margin-right:0cm;
 	margin-bottom:0cm;
 	margin-left:36.0pt;
-	margin-bottom:.0001pt;
 	mso-add-space:auto;
 	line-height:105%;
 	mso-pagination:widow-orphan;
@@ -772,7 +773,6 @@ p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagrap
 	margin-right:0cm;
 	margin-bottom:0cm;
 	margin-left:36.0pt;
-	margin-bottom:.0001pt;
 	mso-add-space:auto;
 	line-height:105%;
 	mso-pagination:widow-orphan;
@@ -832,12 +832,6 @@ p.center, li.center, div.center
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -861,81 +855,6 @@ span.GramE
 	mso-paper-source:0;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- @list l0
-	{mso-list-id:1602688997;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-776012874 135843344 201916419 201916421 201916417 201916419 201916421 201916417 201916419 201916421;}
-@list l0:level1
-	{mso-level-start-at:0;
-	mso-level-number-format:bullet;
-	mso-level-text:-;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
-@list l0:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l0:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l0:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l0:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l0:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l0:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l0:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l0:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-ol
-	{margin-bottom:0cm;}
-ul
-	{margin-bottom:0cm;}
 -->
 </style>
 <!--[if gte mso 10]>
@@ -950,7 +869,6 @@ ul
 	mso-style-parent:"";
 	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
 	mso-para-margin:0cm;
-	mso-para-margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
 	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
@@ -978,50 +896,60 @@ ul
 normal'><span style='font-size:48.0pt;line-height:105%;font-family:"Times New Roman",serif'>Data
 Formats<o:p></o:p></span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:28.0pt;mso-bidi-font-size:48.0pt;line-height:
-105%;font-family:"Times New Roman",serif'>Now, what is a JPEG? A crash course
-in sharing images over the web - and how you can help to reduce how long your
-websites and emails take to load!<o:p></o:p></span></b></p>
+<p class=MsoNormal align=center style='text-align:center'><b><u><span
+style='font-size:22.0pt;mso-bidi-font-size:36.0pt;line-height:105%;font-family:
+"Times New Roman",serif'>Data Compression - the technical side and how it
+relates to you!<o:p></o:p></span></u></b></p>
 
-<p class=MsoNormal><span class=SpellE><span style='font-size:18.0pt;mso-bidi-font-size:
-26.0pt;line-height:105%;font-family:"Times New Roman",serif'>‘Cause</span></span><span
-style='font-size:18.0pt;mso-bidi-font-size:26.0pt;line-height:105%;font-family:
-"Times New Roman",serif'> the last thing I <span class=SpellE>wanna</span> be
-is another negative asshole. Like God speaks through my acoustic guitar and
-I’ve got the perfect set of morals on a dry erase board at the front of the
-house.<o:p></o:p></span></p>
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:18.0pt;mso-bidi-font-size:26.0pt;font-family:"Times New Roman",serif'>We've
+gone over why compressing data is important (reduced file sizes make it easier
+to share files online), but we have not gone over the background of compressing
+data and how it actually works. <o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:18.0pt;mso-bidi-font-size:26.0pt;
-line-height:105%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:18.0pt;mso-bidi-font-size:26.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:18.0pt;mso-bidi-font-size:26.0pt;
-line-height:105%;font-family:"Times New Roman",serif'>FOLLOW THESE CONDITIONS
-OR WE’LL KICK YOUR ASS OUT:<o:p></o:p></span></p>
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:18.0pt;mso-bidi-font-size:26.0pt;font-family:"Times New Roman",serif'>Data
+compression is the process of modifying a specific set of data (images, video,
+audio, etc) in order to reduce its size. Fundamentally, it involves re-encoding
+information using fewer bits than the original representation. This can be seen
+in the image artefacts present in the lossy JPEG file visible in the previous
+guide. The &quot;crust&quot; visible is actually where the JPEG algorithm
+decides to remove data it deems less important without altering the appearance
+of the image. <o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:18.0pt;mso-bidi-font-size:26.0pt;
-line-height:105%;font-family:"Times New Roman",serif'>Vegans only: NO MEAT
-ALLOWED!<o:p></o:p></span></p>
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:18.0pt;mso-bidi-font-size:26.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:18.0pt;mso-bidi-font-size:26.0pt;
-line-height:105%;font-family:"Times New Roman",serif'>Straight edge only: NO
-DRINKING ALLOWED!<o:p></o:p></span></p>
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:18.0pt;mso-bidi-font-size:26.0pt;font-family:"Times New Roman",serif'>This
+technique is used in all sorts of file formats in order to reduce the size
+exponentially without otherwise altering the media itself. At a glance, these &quot;lossy&quot;
+files appear identical to their lossless counterparts. Although it is highly
+recommended to compress your data before sharing it on the web, many
+organisations will require lossless copies for use in applications such as
+audio mastering, video editing, and printing. While compression artefacts in a
+JPEG file are only slightly visible at the low resolutions web sites are rendered
+at, compression artefacts will be far more visible when printed on a billboard
+or movie poster. <o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:18.0pt;mso-bidi-font-size:26.0pt;
-line-height:105%;font-family:"Times New Roman",serif'>Fixed gears only: NO
-THREE-SPEEDS ALLOWED!<o:p></o:p></span></p>
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:18.0pt;mso-bidi-font-size:26.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:18.0pt;mso-bidi-font-size:26.0pt;
-line-height:105%;font-family:"Times New Roman",serif'>Me <span class=SpellE>me</span>
-me<span class=GramE>!!!:</span> I’M SMART! I’M RIGHT! I’M SMART!<o:p></o:p></span></p>
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:18.0pt;mso-bidi-font-size:26.0pt;font-family:"Times New Roman",serif'>To
+conclude, while sharing data through compressed means is highly recommended in
+internet-based applications, be sure to look for alternatives when sharing your
+data for physical applications. <o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:18.0pt;mso-bidi-font-size:26.0pt;
-line-height:105%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+line-height:normal'><span style='font-size:18.0pt;mso-bidi-font-size:26.0pt;
+font-family:"Times New Roman",serif'><a href="../index.htm">Back to Home...</a><o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-size:18.0pt;mso-bidi-font-size:26.0pt;
-line-height:105%;font-family:"Times New Roman",serif'>I think it’s dumb when
-you take the inherently fun like riding bikes and singing songs and say they’re
-not for everyone as if for your whole life you were cool as shit.<o:p></o:p></span></p>
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
 </div>
 
